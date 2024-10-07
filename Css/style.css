@@ -47,9 +47,13 @@
     width: 60%;
     font-family: var(--fuente-raleway);
     font-weight: 600;
-    font-size: 1.1rem;
     background-color: var(--color-blanco);
     margin-right: 40px;
+}
+
+.cabecera_nombre{
+    font-size: 1em;
+    
 }
 
 /* --------------------------------------------------------------------------------- */
@@ -624,7 +628,7 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-        font-size: 1.1rem;
+        font-size: 1.1em;
         text-align: center;
     }
         /* Titulo */
@@ -783,7 +787,7 @@
 
    .sexta_pag_info-titulo{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2em;
     color: var(--color-amarillo);
    }
 
@@ -803,6 +807,7 @@
 
    .sexta_pag_info_dato_logocorreo::before{
     content: url(../assets/email.png);
+    padding-left: 5px;
    }
    .sexta_pag_info_dato_logocotacto::before{
     content: url(../assets/call.png);
@@ -833,7 +838,7 @@
     align-items: center;
    }
    .sexta_pag_formulario_textos h1{
-    font-size: 2.8rem;
+    font-size: 2.8em;
     font-weight: bold;
     color: var(--color-amarillo);
    }

@@ -11,7 +11,7 @@
 }
 
 /* Estilos para disposutivos móviles */
-@media (max-width: 620px){
+@media (max-width: 420px){
 
 /* estilización cabecera */
     .cabecera_img{
@@ -157,7 +157,7 @@
 
     .tercera_pag_tarjetas_edit{
         width:30%;
-        font-size: 1rem;
+        font-size: 1em;
         font-weight: 300;
         height: 100px;
         text-align: center;
@@ -224,53 +224,110 @@
 }
 
 /* --------------------------------------------------------------------------------------------------- */
+/* estilización cuarta página */
+.cuerpo-tarje{
+    font-size: 0.7em;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
 /* estilización quitan página */
 
+
+.cuerpo_quinta_pag_bloque{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.Bloque_card_proyecto{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.card_proyec{
+    width: 70%;
+    height: 50px;
+}
+
+.Cuerpo_card_proyecto{
+    gap: 10px;
+}
+
 .Cuerpo_card_proyecto h2{
-    font-size: 1.2rem;
+    font-size: 1em;
 }
 
 .Cuerpo_card_proyecto p{
-    font-size: 0.9rem;
+    font-size: 0.9em;
 }
-
+.Cuerpo_card_proyecto img{
+    display: none;
+}
 .card-button{
-    font-size: 0.5rem;
+    font-size: 0.5em;
 }
 
 /* ----------------------------------------------------------------------------------------------------- */
 /* Estilización sexta página */
 .cuerpo_sexta_pag_bloque{
-    background-size: 100% 100%;
-    
+    background-size: 300% 100%;
+    gap: 30px;
+    flex-direction: column;
 }
 
 .sexta_pag_info{
-    width: 40%;
+    width: 80%;
     word-wrap: break-word; /* Dividir palabras largas */
     word-break: break-word; /* Permitir quiebres de palabra si es necesario */
+    gap: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .sexta_pag_info:nth-child(1){
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 .sexta_pag_info_dato_lin{
-    font-size: 0.5 em;
+    
     white-space: normal;   
 }
 
 /* Sección formulario */
 
+.sexta_pag_formulario{
+    width: 90%; 
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.sexta_pag_formulario_textos{
+    gap: 15px;
+}
+
 .sexta_pag_formulario_textos h1{
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-align: center;
+    color: var(--color-gris);
+    font-weight: 600;
 }
 
 .sexta_pag_formulario_textos p{
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .sexta_pag_formulario_inputs{
-    width: 100%;
+    width: 90%;
+}
+
+.sextapag_inputs_formulario{
+    height: 30px;
+}
+.sextapag_inputs_formulario_boton{
+    border: 1px solid var(--color-gris);
+    height: 30px;
 }
 
 /* ----------------------------------------------------------------------------------------------------- */
